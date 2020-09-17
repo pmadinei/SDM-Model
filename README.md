@@ -18,3 +18,10 @@ Moreover, You can see all reports and code in jupyter notebook in eithor [HERE](
 
 # Result
 The best performance of a model was observed in a compound voting model that returned the mean value of latency output from “Support-Vector Regressor,” “Decision Tree Regressor,” “Random Forrest Regressor,” and “K-Nearest Neighbor Regressor.” The voting model attained the R2 score of 0.803 on the train-set and 0.781 on the test-set. Moreover, the model reached the Root-Mean-Squared-Error of 49.36 on the train-set and 55.39 on the test-set. Since the latency numbers can be inferred as a binary conclusion of amnesia or solid memory, and by assuming that latency of 150 seconds or less is referring to amnesia, the model has an accuracy of 93% in predicting amnesia or solid memory based on injections’ doses.
+
+# Reference
+* [CENTRAL AMYGDALA NICOTINIC AND 5-HT1A RECEPTORS MEDIATE THE REVERSAL EFFECT OF NICOTINE AND MDMA ON MORPHINE-INDUCED AMNESIA](https://www.sciencedirect.com/science/article/abs/pii/S0306452214005776)
+* [Interactive effects of morphine and nicotine on memory function depend on the central amygdala cannabinoid CB1 receptor function in rats](https://www.sciencedirect.com/science/article/abs/pii/S0278584617304554)
+* [Medial Prefrontal Cortical Cannabinoid CB1 Receptors Mediate Morphine–Dextromethorphan Cross State-Dependent Memory: The Involvement of BDNF/cFOS Signaling Pathways](https://www.sciencedirect.com/science/article/abs/pii/S0306452218306754)
+* [Basolateral amygdala CB1 cannabinoid receptors are involved in cross state-dependent memory retrieval between morphine and ethanol](https://www.sciencedirect.com/science/article/pii/S0091305716301083)
+* [Role of hippocampal and prefrontal cortical signaling pathways in dextromethorphan effect on morphine-induced memory impairment in rats](Role of hippocampal and prefrontal cortical signaling pathways in dextromethorphan effect on morphine-induced memory impairment in rats)
