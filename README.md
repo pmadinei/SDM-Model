@@ -14,10 +14,22 @@ State-Dependent Memory (SDM) is the term that explains remembering a particular 
 # Implementation
 Throughout the researches mentioned above, various drugs - including Saline, Morphine, Nicotine, MDMA, Vehicle, Mecamylamine, (S)WAY100135, ACPA, AM251, Dextromethorphan, Ethanol, and WIN 55.212-2 - were injected pre-test or post-train in either Central Amigdala, Basolateral Amygdala, medial Prefrontal Cortext, or Peritoneum. A data-set has been created to combine all the information from the researches. Each row in the data-set represented a single experiment on a male Wistar rat that a combination of drugs with specific doses was injected through its body. Additionally, the last column of each particular experiment was the latency of the passive avoidance task in the range of 0 and 300 seconds to assess memory retrieval based on injections’ combination. Trials with detailed information were randomly split into train-set and test-set with a portion of 0.8-0.2. As a result, the models were fed with 80% of the data to be evaluated on both training rows and the rows that the models perceived for the first time in testing. Various machinelearning algorithms were applied to establish the most accurate model in the pursuit of predicting the latency of the passive avoidance task based on injection doses. The hyper-parameters of every utilized algorithm, including Linear Regression, Support-Vector Machine, Decision Tree, Random Forrest, K Nearest Neighbor, and Neural Network, were tuned by using grid-search functions.
 
+![Models Comparisons](https://github.com/pmadinei/SDM-Model/blob/master/Results/Models%20Comparison.png)
+
 Moreover, You can see all reports and code in jupyter notebook in eithor [HERE](https://github.com/pmadinei/SDM-Model/blob/master/SDL%20Model.ipynb) as ipynb or [HERE](https://github.com/pmadinei/SDM-Model/blob/master/Code%20in%20HTML.html) as HTML in your local computer.
 
 # Result
-The best performance of a model was observed in a compound voting model that returned the mean value of latency output from “Support-Vector Regressor,” “Decision Tree Regressor,” “Random Forrest Regressor,” and “K-Nearest Neighbor Regressor.” The voting model attained the R2 score of 0.803 on the train-set and 0.781 on the test-set. Moreover, the model reached the Root-Mean-Squared-Error of 49.36 on the train-set and 55.39 on the test-set. Since the latency numbers can be inferred as a binary conclusion of amnesia or solid memory, and by assuming that latency of 150 seconds or less is referring to amnesia, the model has an accuracy of 93% in predicting amnesia or solid memory based on injections’ doses.
+The best performance of a model was observed in a compound voting model that returned the mean value of latency output from “Support-Vector Regressor,” “Decision Tree Regressor,” “Random Forrest Regressor,” and “K-Nearest Neighbor Regressor.” The voting model attained the R2 score of 0.803 on the train-set and 0.781 on the test-set. Moreover, the model reached the Root-Mean-Squared-Error of 49.36 on the train-set and 55.39 on the test-set. 
+
+! [Regressor Reports](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Reports.png)
+
+Since the latency numbers can be inferred as a binary conclusion of amnesia or solid memory, and by assuming that latency of 150 seconds or less is referring to amnesia, the model has an accuracy of 93% in predicting amnesia or solid memory based on injections’ doses.
+
+! [Classification Reports](https://github.com/pmadinei/SDM-Model/blob/master/Results/Classification%20Report.png)
+
+In Addition, The plot bellow illustrated a comparison between real latency values and the prediction of the compound voting model.
+
+! [Model Predictions](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Predictions.png)
 
 # Reference
 * [CENTRAL AMYGDALA NICOTINIC AND 5-HT1A RECEPTORS MEDIATE THE REVERSAL EFFECT OF NICOTINE AND MDMA ON MORPHINE-INDUCED AMNESIA](https://www.sciencedirect.com/science/article/abs/pii/S0306452214005776)
