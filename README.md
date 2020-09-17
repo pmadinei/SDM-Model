@@ -21,15 +21,15 @@ Moreover, You can see all reports and code in jupyter notebook in eithor [HERE](
 # Result
 The best performance of a model was observed in a compound voting model that returned the mean value of latency output from “Support-Vector Regressor,” “Decision Tree Regressor,” “Random Forrest Regressor,” and “K-Nearest Neighbor Regressor.” The voting model attained the R2 score of 0.803 on the train-set and 0.781 on the test-set. Moreover, the model reached the Root-Mean-Squared-Error of 49.36 on the train-set and 55.39 on the test-set. 
 
-! [Regressor Reports](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Reports.png)
+![Regressor Reports](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Reports.png)
 
 Since the latency numbers can be inferred as a binary conclusion of amnesia or solid memory, and by assuming that latency of 150 seconds or less is referring to amnesia, the model has an accuracy of 93% in predicting amnesia or solid memory based on injections’ doses.
 
-! [Classification Reports](https://github.com/pmadinei/SDM-Model/blob/master/Results/Classification%20Report.png)
+![Classification Reports](https://github.com/pmadinei/SDM-Model/blob/master/Results/Classification%20Report.png)
 
 In Addition, The plot bellow illustrated a comparison between real latency values and the prediction of the compound voting model.
 
-! [Model Predictions](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Predictions.png)
+![Model Predictions](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Predictions.png)
 
 # Reference
 * [CENTRAL AMYGDALA NICOTINIC AND 5-HT1A RECEPTORS MEDIATE THE REVERSAL EFFECT OF NICOTINE AND MDMA ON MORPHINE-INDUCED AMNESIA](https://www.sciencedirect.com/science/article/abs/pii/S0306452214005776)
