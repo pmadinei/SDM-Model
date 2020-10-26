@@ -44,6 +44,10 @@ Neural-Networks usually perform perfectly through Machine-Learning modelings; ho
 
 ![NN design](https://github.com/pmadinei/SDM-Model/blob/master/Results/Neural%20Net.png)
 
+In this case, models like decision trees work better for smaller datasets. The image bellow illustrates a part of the designed decision tree with a max depth of 8:
+
+![Decision Tree](https://github.com/pmadinei/SDM-Model/blob/master/Results/Decision%20Tree.png)
+
 # Conclusion: 
 Since the latency numbers can be inferred as a binary conclusion of amnesia or solid memory, and by assuming that latency of 150 seconds or less is referring to amnesia, the model has an accuracy of 93% in predicting amnesia or memory based on injections’ doses. Even though the data-set included diverse states of consciousness, additional data from other related articles can lead the model to an even more complex model that appreciates the interactions between added states more precisely to assist scientists multifacetedly.
 
