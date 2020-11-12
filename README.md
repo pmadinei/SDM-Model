@@ -40,9 +40,55 @@ In Addition, The plot bellow illustrated a comparison between real latency value
 ![Model Predictions](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Predictions.png)
 
 ## Note
-Neural-Networks usually perform perfectly through Machine-Learning modelings; however, since we had a not a large dataset for the project, adding more epochs and complexity to the model just cause overfitting without any help on test-set. Accordingly, the created voting model does not gain any number from the multilayered perception that was created. The image bellow illustrates the design of the created Deep Neural-Network.
+Neural-Networks usually perform perfectly through Machine-Learning modelings; however, since we had a not a large dataset for the project, adding more epochs and complexity to the model just cause overfitting without any help on test-set. Accordingly, the created voting model does not gain any number from the multilayered perception that was created. The code bellow illustrates the design of the created Deep Neural-Network.
 
-![NN design](https://github.com/pmadinei/SDM-Model/blob/master/Results/Neural%20Net.png)
+```Python
+class Model(nn.Module):
+    def __init__(self, class_num, act=F.relu):
+
+        super(Model, self).__init__()
+
+        self.layer1 = nn.Linear(1 * 20, 4000)
+        self.act1 = act
+
+        self.layer2 = nn.Linear(4000, 2000)
+        self.act2 = act
+
+
+        self.layer3 = nn.Linear(2000, 1000)
+        self.act3 = act
+
+        self.layer4 = nn.Linear(1000, 500)
+        self.act4 = act
+
+        self.layer5 = nn.Linear(500, 250)
+        self.act5 = act
+
+        self.layer6 = nn.Linear(250, 1)
+
+    def forward(self, x):
+
+        x = x.view(x.size(0), -1)
+        #Make it one-dimentional
+
+        x = self.layer1(x)
+        x = self.act1(x)
+
+        x = self.layer2(x)
+        x = self.act2(x)
+
+        x = self.layer3(x)
+        x = self.act3(x)
+
+        x = self.layer4(x)
+        x = self.act4(x)
+
+        x = self.layer5(x)
+        x = self.act5(x)
+
+        x = self.layer6(x)
+        return x
+```
 
 In this case, models like decision trees work better for smaller datasets. The image bellow illustrates a part of the designed decision tree with a max depth of 8:
 
