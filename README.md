@@ -51,7 +51,7 @@ In this case, models like decision trees work better for smaller datasets. The i
 # Conclusion: 
 Since the latency numbers can be inferred as a binary conclusion of amnesia or solid memory, and by assuming that latency of 150 seconds or less is referring to amnesia, the model has an accuracy of 93% in predicting amnesia or memory based on injections’ doses. Even though the data-set included diverse states of consciousness, additional data from other related articles can lead the model to an even more complex model that appreciates the interactions between added states more precisely to assist scientists multifacetedly.
 
-# References
+# Reference
 * [CENTRAL AMYGDALA NICOTINIC AND 5-HT1A RECEPTORS MEDIATE THE REVERSAL EFFECT OF NICOTINE AND MDMA ON MORPHINE-INDUCED AMNESIA](https://www.sciencedirect.com/science/article/abs/pii/S0306452214005776)
 * [Interactive effects of morphine and nicotine on memory function depend on the central amygdala cannabinoid CB1 receptor function in rats](https://www.sciencedirect.com/science/article/abs/pii/S0278584617304554)
 * [Medial Prefrontal Cortical Cannabinoid CB1 Receptors Mediate Morphine–Dextromethorphan Cross State-Dependent Memory: The Involvement of BDNF/cFOS Signaling Pathways](https://www.sciencedirect.com/science/article/abs/pii/S0306452218306754)
