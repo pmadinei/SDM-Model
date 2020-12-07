@@ -35,13 +35,12 @@ Since the latency numbers can be inferred as a binary conclusion of amnesia or s
 
 ![Classification Reports](https://github.com/pmadinei/SDM-Model/blob/master/Results/Classification%20Report.png)
 
-In Addition, The plot bellow illustrated a comparison between real latency values and the prediction of the compound voting model.
+Finally, the plot bellow illustrated a comparison between real latency values and the prediction of the compound voting model.
 
 ![Model Predictions](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Predictions.png)
 
 ## Poster:
-The accepted poster, which will be presented in "Basic and Clinical Neuroscience Congress 2020", is attached hereunder:
-
+This project's accepted poster, which has been presented in "Basic and Clinical Neuroscience Congress 2020", is attached hereunder.
 ![BCNC Poster](https://github.com/pmadinei/SDM-Model/blob/master/Results/SDM%20Modeling%20-%20BCNC%20Poster.jpg)
 
 ## Note
