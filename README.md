@@ -39,6 +39,11 @@ In Addition, The plot bellow illustrated a comparison between real latency value
 
 ![Model Predictions](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Predictions.png)
 
+## Poster:
+The accepted poster, which will be presented in "Basic and Clinical Neuroscience Congress 2020", is attached hereunder:
+
+![BCNC Poster](https://github.com/pmadinei/SDM-Model/blob/master/Results/SDM%20Modeling%20-%20BCNC%20Poster.jpg)
+
 ## Note
 Neural-Networks usually perform perfectly through Machine-Learning modelings; however, since we had a not a large dataset for the project, adding more epochs and complexity to the model just cause overfitting without any help on test-set. Accordingly, the created voting model does not gain any number from the multilayered perception that was created. The code bellow illustrates the design of the created Deep Neural-Network.
 
