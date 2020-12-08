@@ -44,7 +44,7 @@ This project's accepted poster, which has been presented in "Basic and Clinical 
 
 ![BCNC Poster](https://github.com/pmadinei/SDM-Model/blob/master/Results/SDM%20Modeling%20-%20BCNC%20Poster.jpg)
 
-## Note
+### Note
 Neural-Networks usually perform perfectly through Machine-Learning modelings; however, since we had a not a large dataset for the project, adding more epochs and complexity to the model just cause overfitting without any help on test-set. Accordingly, the created voting model does not gain any number from the multilayered perception that was created. The code bellow illustrates the design of the created Deep Neural-Network.
 
 ```Python
