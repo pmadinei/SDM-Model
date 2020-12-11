@@ -41,11 +41,6 @@ Finally, the plot bellow illustrated a comparison between real latency values an
 
 ![Model Predictions](https://github.com/pmadinei/SDM-Model/blob/master/Results/Best%20Model%20Predictions.png)
 
-## Poster:
-This project's accepted poster, which has been presented in "Basic and Clinical Neuroscience Congress 2020", is attached hereunder:
-
-![BCNC Poster](https://github.com/pmadinei/SDM-Model/blob/master/Results/SDM%20Modeling%20-%20BCNC%20Poster.jpg)
-
 ### Note
 Neural-Networks usually perform perfectly through Machine-Learning modelings; however, since we had a not a large dataset for the project, adding more epochs and complexity to the model just cause overfitting without any help on test-set. Accordingly, the created voting model does not gain any number from the multilayered perception that was created. The code bellow illustrates the design of the created Deep Neural-Network.
 
@@ -103,6 +98,11 @@ In this case, models like decision trees work better for smaller datasets. The i
 
 # Conclusion: 
 Since the latency numbers can be inferred as a binary conclusion of amnesia or solid memory, and by assuming that latency of 150 seconds or less is referring to amnesia, the model has an accuracy of 93% in predicting amnesia or memory based on injections’ doses. Even though the data-set included diverse states of consciousness, additional data from other related articles can lead the model to an even more complex model that appreciates the interactions between added states more precisely to assist scientists multifacetedly.
+
+## Poster:
+This project's poster, which has been presented and ranked 1st in "Basic and Clinical Neuroscience Congress 2020", is attached hereunder:
+
+![BCNC Poster](https://github.com/pmadinei/SDM-Model/blob/master/Results/SDM%20Modeling%20-%20BCNC%20Poster.jpg)
 
 # Reference
 * [CENTRAL AMYGDALA NICOTINIC AND 5-HT1A RECEPTORS MEDIATE THE REVERSAL EFFECT OF NICOTINE AND MDMA ON MORPHINE-INDUCED AMNESIA](https://www.sciencedirect.com/science/article/abs/pii/S0306452214005776)
