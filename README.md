@@ -100,7 +100,7 @@ In this case, models like decision trees work better for smaller datasets. The i
 Since the latency numbers can be inferred as a binary conclusion of amnesia or solid memory, and by assuming that latency of 150 seconds or less is referring to amnesia, the model has an accuracy of 93% in predicting amnesia or memory based on injections’ doses. Even though the data-set included diverse states of consciousness, additional data from other related articles can lead the model to an even more complex model that appreciates the interactions between added states more precisely to assist scientists multifacetedly.
 
 ## Poster:
-This project's poster, which has been presented and ranked 1st in "Basic and Clinical Neuroscience Congress 2020", is attached hereunder:
+This project's poster, which has been presented and became ranked 1st in BCNC Congress 2020, is attached hereunder:
 
 ![BCNC Poster](https://github.com/pmadinei/SDM-Model/blob/master/Results/SDM%20Modeling%20-%20BCNC%20Poster.jpg)
 
